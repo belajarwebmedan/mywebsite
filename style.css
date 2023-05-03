@@ -1,0 +1,56 @@
+.bg-1{
+	background-color: #3b3c5a;
+}
+
+.bg-2{
+	background-color: #faa65e;
+}
+
+.bg-3{
+	background-color: #cc5279;
+}
+
+.teks-putih{
+	color: #ffffff;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	margin: 5px;
+	
+}
+
+a:hover{
+	border-bottom-style: solid;
+	border-bottom-color: white;
+}
+
+.tes{
+	padding: 5px;
+}
+
+li{
+	display: inline;
+	color: white;
+}
+
+.mar{
+	margin: 5px;
+}
+
+.pad{
+	padding: 5px;
+}
+
+@media (max-width: 576px) {
+  .menu{
+  	display: block;
+  }
+}
+
+.tombol_menu{
+	display: flex;
+	justify-content: end;
+	color: white;
+}
